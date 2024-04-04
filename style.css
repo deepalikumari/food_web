@@ -1,0 +1,90 @@
+body {
+  background-color: whitesmoke;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #E4E9B2;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 36px;
+  color: red; 
+}
+
+h3 {
+  margin-top: 0;
+  font-style: italic;
+  color: rgb(134, 123, 60); 
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(86, 2, 2); 
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-size: 30px;
+  color: #060606; 
+}
+
+#SMeal {
+  display: none; 
+}
+
+#feature {
+  margin-top: 20px;
+}
+
+#feature h2 {
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container {
+  display: flex; 
+  overflow-x: auto; 
+}
+
+.featuredMeal {
+  margin-right: 10px; 
+}
+
+.featuredMeal img {
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 8px; 
+}
+
+#inp {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#inp::placeholder {
+  color: #999; 
+}
